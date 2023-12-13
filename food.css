@@ -1,0 +1,1491 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+body{
+   background-color: rgb(249,246,240);;
+}
+
+
+
+ /* first bar the container with colorfull background img */
+ .contain{
+   background-color: black;
+   display: none;
+   width: 100%;
+   height: 100vh;
+   top: 50px;
+   position: relative;
+   cursor:crosshair;
+   
+ }
+ .search{
+   position: relative;
+   top: 130px;
+    left: 250px;
+    background-color: black;
+    border: none;
+ }
+.firstbar{
+    display: flex;
+    justify-content: space-around;
+    background-image:url(bk\ .jpg.jpg);
+    width: 100%;
+    height: 20vh;
+    z-index: 30;
+   
+
+   }
+
+   .foods{
+      color: wheat;
+      font: bold;
+      font-size: 45px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',;
+      margin-top: 35px;
+     }
+
+     .foods2{
+      color: #FF8D29;
+      font: bold;
+      font-size: 45px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',;
+      margin-top: 35px;
+     
+     }
+
+     .firstcontainer{
+      font-weight: bold;
+      margin-top: 50px;
+  
+  }
+
+  .firstcontainer a{
+   color: rgb(222, 213, 213);
+   margin-right: 50px;
+   
+}
+.firstcontainer a:hover{
+   color: #FF8D29;
+}
+
+.reserv{
+   border: 1px solid black;
+   padding: 10px 20px;
+   background-color:#FF8D29 ;
+   border: none;
+}
+
+.reserv:hover{
+   background-color: black;
+   transition: 0.5s ease-in;
+   transform:translate(0.5s);
+   
+} 
+/* end */
+
+/* white navbar menu is d container dat will dropdown when u scroll  */
+
+
+.firstbar2{
+   background-color: white;
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 15vh;
+   z-index: 100;
+   position: sticky;
+   top: 0;
+    display: none; 
+    transition: ease-in 0.5s;
+
+}
+
+.whitebarfoods{
+
+   color:black;
+   font: bold;
+   font-size: 45px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',;
+   margin-top: 35px;
+
+}
+
+
+.firsthomecontainer{
+    font-weight: bold;
+    margin-top: 50px;
+
+    
+}
+
+
+.firsthomecontainer a{
+    color:black;
+    margin-right: 50px;
+    
+}
+
+.firsthomecontainer a:hover{
+    color: #FF8D29;
+}
+
+.reserv2{
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color:#FF8D29 ;
+    border: none;
+}
+
+ .reserv2:hover{
+    background-color: black;
+    transition: 0.5s ease-in;
+    transform:translate(0.5s);
+    
+} 
+
+
+/* end */
+
+
+
+/* second bar with hand buger */
+
+ .secondbar{
+    background-image:url(bk\ .jpg.jpg);
+    width: 100%;
+    height: 100vh;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+
+    
+ }
+
+ .secondbar2{
+    margin-left: 75px;
+     position: relative;
+     top: 90px;
+     width: 50%;
+ }
+
+ .secondbar2 p{
+    font-size:xx-large;
+    color: #FF8D29;
+    font-family: 'Zeyada', cursive;
+ }
+
+ .secondbar2 h1{
+    color: #F1D6C6;
+    font-size: 80px;
+    font-weight: bolder;
+ }
+
+ .secondbar2 h6{
+    color:#F1D6C6;
+    font-size: 15px;
+    font-weight: bold;
+    
+ }
+
+ .secondbar2 button{
+      color: white;
+      padding: 10px;
+      background-color: #FF9D2E;
+      outline: none;
+      cursor: pointer;
+ }
+
+ .secondbar2 button:hover{
+    color: black;
+    background-color:white;
+ }
+
+ .secondbar3{
+    position: relative;
+    top: 50px;
+    width: 50%;
+    
+ }
+    
+
+
+
+.whiteveggs{
+   width:650px;
+
+
+
+} 
+
+ .handbuger{
+    position: relative;
+    top: -420px;
+    left: 120px;
+    background: transparent;
+    width:350px;
+
+
+   }
+/* end */
+
+/* third pizza menu */
+    
+   .thirdbar{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction:row;
+      background-color: rgb(249,246,240);
+
+   }
+
+   .thirdbar2{
+      display: none;
+   }
+
+
+.firstpizza{
+   width: 20%;
+   height: 80vh;
+   background-color: white;
+    background-image: linear-gradient(to bottom left ,transparent 60% ,#FF9D2E 40% ); 
+   
+
+}
+
+.firstpizza:hover{
+   background-color: #FF9D2E;
+   transition: ease-in 0.5s;
+   
+
+}
+
+.firstpizza img{
+   width: 180px;
+   margin-left: 50px;
+   
+}
+
+.firstpizza h3{
+   margin-left: 60px;
+}
+
+.firstpizza p{
+   margin-left: 60px;
+}
+
+.loadcontainer{
+   border: 1px solid #FF9D2E;
+   width: 180px;
+   border-radius: 8px;
+   height: 15px;
+   position: relative;
+   left: 45%;
+}
+
+.load{
+   position: relative;
+   width: 80px;
+   height: 9px;
+   background-color:#FF9D2E;
+   cursor: pointer;
+   border-radius: 8px;
+   top: 2px;
+
+   
+
+}
+
+.load:hover{
+   background-color:rgb(221, 159, 82) ;
+}
+ .loadcontainer2{
+   display: none;
+ }
+/* end */
+
+ /* .loadcontainer{
+    -webkit-overflow-scrolling: touch; 
+   scroll-snap-type: x mandatory;
+}  */
+
+
+/* forth bar with get up to 50% off now */
+
+.cupcoke{
+   width: 100%;
+   display: flex;
+   justify-content:space-around;
+   flex-direction: row;
+   background-color: white;
+   height: 80vh;
+   
+
+   
+}
+.cupcoke2{
+
+    width: 50%;
+    position: relative;
+    left: 130px;
+    top:90px;
+   
+
+}
+
+
+.icecoke{
+ width:60%;
+
+} 
+.red2{
+   display: none;
+}
+.red{
+   width: 40%;
+   position: relative;
+   right:-5px ;
+   top: -430px;
+   z-index: 20;
+  -webkit-animation: breathing 1.5s ease-in-out infinite;
+}
+@-webkit-keyframes breathing {
+   0%{-webkit-transform: scale(0.9);
+   transform: scale(0.9);}
+
+  25%{
+   -webkit-transform:scale(1);
+   transform: scale(1);
+  }
+   60%{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+
+   }
+   100%{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+   }
+} 
+
+ .about{
+   width: 50%;
+   position: relative;
+   top:75px;
+
+
+
+ }
+
+.about h1{
+   font: bold;
+   font-size:50px;
+
+}
+
+.about h1 span{
+   color: #FF9D2E;
+}
+
+.about  p{
+   color: grey;
+}
+
+.about ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.bi-check-circle{
+   color: #FF9D2E;
+   
+
+}
+
+.about h4{
+   border: 1px solid black;
+   width: 140px;
+   padding: 10px;
+   margin-top: 20px;
+   background-color: #FF8D29;
+   color:white;
+   border: none;
+   text-align: center;
+   font-weight:bold ;
+   margin-left: 20px;
+   cursor: pointer;
+
+}
+
+.about h4:hover{
+   background-color: black;
+   transition: ease-in-out 0.5s;
+}
+
+/* end */
+
+/* popular dishes section */
+
+.Popular {
+   margin-top: 40px;
+}
+
+.Popular p{
+   color: red;
+   text-align: center;
+   font-size: large;
+   font-weight: bold;
+
+}
+
+.Popular h1{
+   text-align: center;
+   font-size: xx-large;
+
+}
+.Popular span{
+   color: #FF9D2E;
+}
+
+.Popular h4{
+   color: grey;
+   text-align: center;
+}
+
+.Popular ul{
+   display: flex;
+   list-style: none;
+   align-items: center;
+   
+}
+
+.Popular li{
+   position: relative;
+   left:30%;
+   margin-left: 40px;
+   top: 20px;
+   border: 1px solid black;
+   padding: 10px;
+   background-color: white;
+   cursor: pointer;
+   font-weight: bold;
+   border: none;
+
+}
+
+.chicken-unlimited{
+   background-color: white;
+   width: 25%;
+   height: 85vh;
+   border: 1px solid black;
+   border: none;
+}
+
+.chicken-unlimited:hover .now{
+  display: block;
+}
+
+.foodmenus{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+}
+/* #chickenUnlimited{
+   border: 1px solid black;
+} */
+
+.foodmenus p{
+   width: 40px;
+   font-size: 15px;
+   background-color: red;
+   color: white;
+   height: 20px;
+   
+   font-weight: bold;
+   margin: 30px;
+
+   
+}
+ 
+.foodmenus img{
+   width: 230px;
+   position: relative;
+   top: 20px;
+   left: 40px;
+}
+
+.foodmenus h5{
+   color: grey;
+   letter-spacing: 3px;
+   margin-left: 20px;
+   font:xx-large;
+}
+
+.bi-star-fill{
+   color: #FF8D29;
+}
+
+.now{
+   border: 1px solid black;
+   width: 100px;
+   padding: 10px 20px;
+   position: relative;
+   top: -260px;
+   left: 100px;
+   border: none;
+   background-color: red;
+   color: white;
+   display: none ;
+   cursor: pointer;
+}
+
+.now:hover{
+   background-color: #FF8D29;
+}
+
+/* end */
+
+/* next section of the foodie has excellent quality bugers */
+
+.excellent{
+ background-image:url(bk\ .jpg.jpg) ;
+ width: 100%;
+ height: 100vh;
+ position: relative;
+ top: 50px;
+ display: flex;
+ justify-content:space-around ;
+ background-size: cover;
+ flex-direction: row;
+
+}
+
+.excellent div{
+ position: relative;
+ top: 80px;
+ 
+}
+.excellent div h1{
+   color: white;
+   font-size:42px;
+   font-weight: bolder;
+   position: relative;
+   left: 50px;
+   top: 20px;
+}
+
+.excellent div  p{
+   color: white;
+   letter-spacing: 1px;
+   position: relative;
+   left: 50px;
+   top: 20px;
+   font: bold;
+}
+
+.excellent div h6{
+   color: white;
+   border: 1px solid black;
+   width: 100px;
+   padding: 8px 20px;
+   background-color: #FF8D29;
+   border: none;
+   position: relative;
+   top: 30px;
+   left: 50px;
+   
+    
+   }
+
+   .bugga{
+      position: relative;
+      top: -80px;
+      left: 100px;
+   }
+
+
+.sales-white{
+   position: relative;
+   top: -400px;
+   right: 500px;
+   -webkit-animation: breathing 1.5s ease-in-out infinite;      
+}
+
+
+@keyframes breathing {
+   0%{
+   transform: scale(0.9);}
+
+  25%{
+   
+   transform: scale(1);
+  }
+   60%{
+   
+      transform: scale(0.9);
+
+   }
+   100%{
+      
+      transform: scale(0.9);
+   }
+}
+
+/* end */
+/*  a boy riding a bicycle section */
+
+.bike-riding{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   background-color: white;
+   height: 80vh;
+   width: 100%;
+}
+
+.bike-riding div h1{
+   font-size: 50px;
+   position: relative;
+   top: 100px;
+   left: 50px; 
+}
+
+.bike-riding div span {
+   color: #FF9D2E;
+}
+
+.bike-riding div p {
+   position: relative;
+   top: 130px;
+   left: 50px;
+   color: gray;
+}
+
+.bike-riding div h6{
+   position: relative;
+   top: 150px;
+   border: 1px solid black;
+   width: 100px;
+   left: 50px;
+   padding: 10px 20px;
+   border: none;
+   background-color: #FF8D29;
+   font-weight: bolder;
+   color: white;
+}
+.bike-riding div h6:hover{
+ background-color: black;
+}
+
+.bike-riding main img{
+   background-color: transparent;
+}
+
+@-webkit-keyframes bikeMovement{
+   0%{
+      transform: translateX(0);
+   }
+   40%{
+      transform: translateX(70px);
+   }
+   100%{
+      transform: translateX(0);
+   }
+}
+
+.bike{
+ position: relative;
+ animation: bikeMovement 4s infinite;
+ top: 20px;
+}
+
+/* end */
+
+/* testimonial section */
+
+.testimony p{
+     position: relative;
+     color: red;
+     font-weight:bolder;
+     top: 50px; 
+     text-align: center;  
+}
+
+.testimony h1{
+   position: relative;
+   top: 60px;
+   text-align: center;
+   font-weight: bolder;
+}
+
+.testimony span{
+     color: #FF8D29;
+     font-weight: bolder;
+     
+
+}
+
+.testimony h5{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: grey;
+}
+
+.robert-container{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.robert{
+   position: relative;
+   top: 100px;
+   background-color: white;
+   width:25%;
+   height: 40vh;
+}
+
+.robert img{
+   width: 50px;
+   border-radius: 100%;
+   position: relative;
+   top: 50px;
+   left: 2px;
+}
+
+.robert h4{
+   position: relative;
+   left: 16%;
+   top: 20px;
+   font-weight: bolder;
+}
+
+.robert p{
+   position: relative;
+   left: 50px;
+   top: 23px;
+   color: grey;  
+}
+
+.robert h5{
+   position: relative;
+   left: 8px;
+   top: 45px;
+   font-size: 17px;
+   color: grey;  
+}
+
+.robert i{
+   position: relative;
+   top: 60px;
+   left: 8px;
+}
+
+/* end */
+
+/* four food bana section */
+
+.banaonly{
+   background-color: white;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   top: 180px;
+    display: flex;
+    
+}
+
+.banaonly1{
+   background-image: url(./macbana.jpg);
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 40%;
+    height: 60vh;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    
+}
+
+.banaonly1:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.banaonly1 h3{
+   font-size: xx-large;
+   color: white;
+   position: relative;
+   left: 20px;
+   top: 80px;
+
+   
+}
+
+.banaonly1 h2{
+   font-size: xx-large;
+   color: white;
+   position: relative;
+   left: 20px;
+   top: 100px;
+
+   
+}
+
+.banaonly1 p{
+   color: white;
+   position: relative;
+   left: 20px;
+   top: 120px;
+
+   
+}
+
+
+.banaonly1 small{
+   color: white;
+   position: relative;
+   left: 20px;
+   top: 150px;
+   font-size: large;
+   border: 1px solid black;
+   padding: 10px 20px ;
+   background-color: #FF8D29;
+   border: none;
+}
+
+
+.banaonly1 small:hover{
+   background-color: black;
+   
+}
+
+
+.banaonly2{
+   background-image: url(./macbana2.jpg);
+   width: 23%;
+   height: 30vh;
+   position: relative;
+   top: 100px ;
+   left: 60px;
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    
+}
+
+
+.banaonly2:hover{
+   transform: scale(1.1);
+   transition: all 0.5s;
+ }
+ 
+ .banaonly2 h3{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 10px;
+ 
+    
+ }
+ 
+ .banaonly2 h2{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+ 
+    
+ }
+ 
+ .banaonly2 p{
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 40px;
+ 
+    
+ }
+ 
+ 
+ .banaonly2 small{
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 60px;
+    font-size: large;
+    border: 1px solid black;
+    padding: 10px 20px ;
+    background-color: #FF8D29;
+    border: none;
+ }
+ 
+ 
+ .banaonly2 small:hover{
+    background-color: black;
+    
+ }
+ 
+
+ 
+.banaonly3{
+   background-image: url(./macbana3.jpg);
+   width: 23%;
+   height: 30vh;
+   position: relative;
+   top: 100px ;
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+   left: 70px;
+}
+
+
+.banaonly3:hover{
+   transform: scale(1.1);
+   transition: all 0.5s;
+ }
+ 
+ .banaonly3 h3{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 10px;
+ 
+    
+ }
+ 
+ .banaonly3 h2{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+ 
+    
+ }
+ 
+ .banaonly3 p{
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 40px;
+ 
+    
+ }
+ 
+ 
+ .banaonly3 small{
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 60px;
+    font-size: large;
+    border: 1px solid black;
+    padding: 10px 20px ;
+    background-color: #FF8D29;
+    border: none;
+ }
+ 
+ 
+ .banaonly3 small:hover{
+    background-color: black;
+    
+ }
+
+ .banaonly4{
+   background-image: url(./macbana4.jpg);
+   width: 47%;
+   height: 28vh;
+   position: relative;
+   top: -160px ;
+   right: -602px;
+   box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    
+ }
+
+ .banaonly4:hover{
+   transform: scale(1.1);
+   transition: all 0.5s;
+ }
+ 
+ .banaonly4 h3{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    top: 10px;
+    text-align: right;
+    right: 100px;
+    
+ }
+ 
+ .banaonly4 h2{
+    font-size: xx-large;
+    color: white;
+    position: relative;
+    text-align: right;
+    top: 10px;
+    right: 170px;
+    
+ }
+ 
+ .banaonly4 p{
+    color: white;
+    position: relative;
+    text-align: right;
+    top: 30px;
+    right: 150px;
+ 
+    
+ }
+ 
+ 
+ .banaonly4 small{
+    color: white;
+    position: relative;
+    text-align: right;
+    top: 50px;
+    font-size: large;
+    left: 10px;
+    border: 1px solid black;
+    padding: 10px 20px ;
+    background-color: #FF8D29;
+    border: none;
+ }
+ 
+ 
+ .banaonly4 small:hover{
+    background-color: black;
+    
+ }
+
+/* end */
+/*  beginning of latest blog post  */
+
+.blog{
+   position: relative;
+   top: 50px;
+   
+}
+
+.blog h6{
+ text-align: center;
+ color: red;
+ font-size: large;
+}
+
+.blog h1{
+   text-align: center;
+   font-size: xx-large;
+   position: relative;
+   top: 10px;
+}
+.blog span{
+   color: #FF8D29;
+}
+.blog p{
+   color: gray;
+   text-align: center;
+   position: relative;
+   top: 20px;
+}
+
+.blog-img{
+   display: flex;
+   justify-content: space-around;
+
+}
+.blog-img nav{
+   background-image: url(./blog-1.jpg);
+   width: 300px;
+   height: 30vh;
+   position: relative;
+   top: -10px;
+}
+.blog-img p{
+   color: white;
+   border: 1px solid black;
+   width: 100px;
+   padding: 5px 10px;
+   position: relative;
+   left:190px;
+   background-color: #FF8D29;
+   border: none;
+}
+
+.piza{
+   background-color: white;
+   width:300px ;
+   height: 60vh;
+   top: 50px;
+   position: relative;
+}
+
+.calender i{
+   margin-left: 10px;
+   color:#FF8D29;
+   font-size: small;
+   font-weight: bold;
+}
+
+.calender span{
+   color: black;
+   margin-left: 10px;
+}
+
+.calender span:hover{
+   color: #FF8D29;
+   cursor: pointer;
+
+}
+
+.cheese a{
+   margin-right: 20px;
+   font-size: large;
+   cursor: pointer;
+   color: black;
+   font-weight: bold;
+   
+}
+
+.cheese a:hover{
+   text-decoration: underline;
+
+}
+
+.more{
+   color: gray;
+   margin: 15px;
+}
+
+h4{
+   font-size: small;
+   margin-left: 10px;
+}
+h4:hover{
+   color: #FF9D2E;
+}
+
+.blog-img2 nav{
+   background-image: url(./blog-2.jpg);
+   width: 300px;
+   height: 30vh;
+   position: relative;
+   top: -10px;
+}
+
+
+.blog-img3 nav{
+   background-image: url(./blog-3.jpg);
+   width: 300px;
+   height: 30vh;
+   position: relative;
+   top: -10px;
+}
+
+/* end */
+
+/* footer section */
+
+.end{
+   background-image: url(./footer-illustration.png);
+   width: 100%;
+   height: 70vh;
+   background-color: white;
+   position: relative;
+   top: 130px;
+}
+
+.foodie-end{
+   display: flex;
+   justify-content: space-around;
+}
+
+.bi-pinterest{
+   color: white;  
+   cursor: pointer; 
+   border: 1px solid black; 
+   width: 20px; 
+   padding: 5px 10px;
+    border: none; 
+    background-color: #FF9D2E;
+}
+
+.bi-pinterest:hover{
+   background-color: black;
+
+}
+
+.bi-instagram{
+color: white;  
+ cursor: pointer; 
+ border: 1px solid black; 
+ width: 20px; 
+ padding: 5px 10px;
+ border: none; 
+ background-color: #FF9D2E;
+}
+
+.bi-instagram:hover{
+   background-color: black;
+}
+
+.bi-twitter{
+ color: white;  
+ cursor: pointer; 
+ border: 1px solid black; 
+ width: 20px; 
+ padding: 5px 10px;
+ border: none; 
+ background-color: #FF9D2E;
+}
+
+.bi-twitter:hover{
+   background-color: black;
+}
+
+.bi-facebook{
+   color: white;  
+   cursor: pointer; 
+   border: 1px solid black; 
+   width: 20px; 
+   padding: 5px 10px;
+   border: none; 
+   background-color: #FF9D2E;
+}
+
+.bi-facebook:hover{
+   background-color: black;
+}
+
+
+.bi-dash-lg{
+ position: relative;
+ top: 10px;
+ color: #FF8D29;
+   font-size: xx-large;
+}
+
+.book{
+   padding:10px 20px ;
+   width: 50%;
+   border: none;
+   background-color: #FF8D29;
+   color: white;
+   margin: 15px;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.book:hover{
+background-color: black;
+}
+
+.cycle img{
+   display: block;
+}
+
+
+.ride{
+   position: relative;
+   top: -80px;
+   animation: bicycleRiding 3s infinite;
+}
+
+@keyFrames bicycleRiding {
+
+
+
+100%{
+   transform: translateX(500px);
+}
+
+0%{
+   transform: translateX(0%);
+}
+
+
+}
+
+/* end */
+
+.ending{
+   background-color: white;
+   width: 100%;
+   height: 13vh;
+   position: relative;
+   top:  133px;
+}
+.ending p{
+   position: relative;
+   top: 50px;
+}
+
+.ending span{
+   color: grey;
+   cursor: pointer;
+}
+.ending span:hover{
+   text-decoration: underline;
+
+}
+
+.bi-chevron-up{
+   position: absolute;
+   right: 0px;
+   border: 1px solid black;
+   border-radius: 100%;
+   padding: 15px;
+   background-color: #FF8D29;
+   border: none;
+   color: white;
+}
+/* end */
+
+
+
+/* at media query design */
+
+
+@media(max-width:1457px){
+ 
+   .red{
+      display: none;
+   }
+   .red2{
+      display: block;
+      width: 33%;
+   position: relative;
+   right:-9px ;
+   top: -390px;
+   z-index: 20;
+  -webkit-animation: breathing 1.5s ease-in-out infinite;
+}
+@-webkit-keyframes breathing {
+   0%{-webkit-transform: scale(0.9);
+   transform: scale(0.9);}
+
+  25%{
+   -webkit-transform:scale(1);
+   transform: scale(1);
+  }
+   60%{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+
+   }
+   100%{
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+   }
+   }
+
+
+
+
+
+
+}
+/* end */
+@media (max-width:750px) {
+   .thirdbar2{
+      display: flex;
+      justify-content: center;
+      
+
+
+   }
+   .firstpizza2{
+      width: 35%;
+      height: 70vh;
+      background-color: white;
+      background-image: linear-gradient(to bottom left ,transparent 60% ,#FF9D2E 40% ); 
+      margin-right: 20px;
+   }
+
+   .firstpizza2:hover{
+      background-color: #FF9D2E;
+      transition: ease-in 0.5s;
+   }
+
+   .firstpizza2 img{
+      width: 180px;
+      margin-left: 50px;
+      
+   }
+
+   
+   .firstpizza2 h3{
+   margin-left: 60px;
+   }
+
+   
+  .firstpizza2 p{
+   margin-left: 60px;
+   }
+   
+
+
+   .thirdbar{
+      display: none;
+   }
+
+
+   .first-img4{
+      width: 200px;
+   }
+
+   
+.loadcontainer2{
+   border: 1px solid #FF9D2E;
+   width: 180px;
+   border-radius: 8px;
+   height: 15px;
+   position: relative;
+   left: 45%;
+   }
+
+.loadcontainer{
+   display: none;
+}
+
+.load2{
+   position: relative;
+   width: 80px;
+   height: 9px;
+   background-color:#FF9D2E;
+   cursor: pointer;
+   border-radius: 8px;
+   top: 2px;
+   
+   
+   
+   }
+   
+
+}
+
+/* end */
+
+
+
